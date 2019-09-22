@@ -1,0 +1,22 @@
+# Don't print a new line at the start of the prompt
+add_newline = false
+
+# Replace the "❯" symbol in the prompt
+[character]
+symbol = "$"
+
+# Disable the package module, hiding it from the prompt completely
+[package]
+disabled = true
+
+# Disable langs modules
+[golang]
+disabled = true
+[nodejs]
+disabled = true
+[ruby]
+disabled = true
+[rust]
+disabled = true
+[python]
+disabled = true
